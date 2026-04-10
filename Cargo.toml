@@ -2,7 +2,7 @@
 name = "cuda-stream"
 version = "0.1.0"
 edition = "2021"
-description = "Windowed aggregation, tumbling/sliding windows, stream joins"
+description = "Windowed aggregation and stream joins"
 license = "MIT OR Apache-2.0"
 repository = "https://github.com/Lucineer/cuda-stream"
 readme = "README.md"
@@ -11,3 +11,4 @@ categories = ["science"]
 
 [dependencies]
 serde = { version = "1", features = ["derive"] }
+
